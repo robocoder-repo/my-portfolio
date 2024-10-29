@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+#about, #skills, #projects {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #007bff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
